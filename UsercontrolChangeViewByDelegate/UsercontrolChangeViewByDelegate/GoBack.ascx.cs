@@ -16,6 +16,7 @@ namespace UsercontrolChangeViewByDelegate
 
         protected void goBack_btn_OnClick(object sender, EventArgs e)
         {
+            //呼叫端有設定就觸發它
             goBackHandler?.Invoke();
         }
 

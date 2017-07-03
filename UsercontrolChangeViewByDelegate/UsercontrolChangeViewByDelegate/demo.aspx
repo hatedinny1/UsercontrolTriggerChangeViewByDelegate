@@ -16,11 +16,11 @@
             <asp:MultiView ID="page_mv" runat="server">
                 <asp:View ID="firstPage_vw" runat="server">
                     <h1>Page 1</h1>
-                    <uc1:GoBack runat="server" id="goBackSecondPage" />
+                    <uc1:GoBack runat="server" id="goBackSecondPage"/>
                 </asp:View>
                 <asp:View ID="secondPage_vw" runat="server">
                     <h1>Page 2</h1>
-                    <uc1:goback runat="server" id="goBackFirstPage" />
+                    <uc1:Goback runat="server" id="goBackFirstPage" />
                 </asp:View>
             </asp:MultiView>
         </div>
