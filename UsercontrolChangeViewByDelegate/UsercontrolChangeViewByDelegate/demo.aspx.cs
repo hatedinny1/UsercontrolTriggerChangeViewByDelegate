@@ -15,6 +15,18 @@ namespace UsercontrolChangeViewByDelegate
             {
                 page_mv.SetActiveView(secondPage_vw);
             }
+
+            //註冊返回第一頁
+            goBackFirstPage.goBackHandler += () =>
+            {
+                page_mv.SetActiveView(firstPage_vw);
+            };
+
+            //註冊返回第二頁
+            goBackSecondPage.goBackHandler += () =>
+            {
+                page_mv.SetActiveView(secondPage_vw);
+            };
         }
     }
 }

@@ -40,6 +40,15 @@ namespace UsercontrolChangeViewByDelegate {
         protected global::System.Web.UI.WebControls.View firstPage_vw;
         
         /// <summary>
+        /// goBackSecondPage 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::UsercontrolChangeViewByDelegate.GoBack goBackSecondPage;
+        
+        /// <summary>
         /// secondPage_vw 控制項。
         /// </summary>
         /// <remarks>
@@ -47,5 +56,14 @@ namespace UsercontrolChangeViewByDelegate {
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.View secondPage_vw;
+        
+        /// <summary>
+        /// goBackFirstPage 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::UsercontrolChangeViewByDelegate.GoBack goBackFirstPage;
     }
 }
