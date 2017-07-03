@@ -11,7 +11,10 @@ namespace UsercontrolChangeViewByDelegate
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                page_mv.SetActiveView(secondPage_vw);
+            }
         }
     }
 }

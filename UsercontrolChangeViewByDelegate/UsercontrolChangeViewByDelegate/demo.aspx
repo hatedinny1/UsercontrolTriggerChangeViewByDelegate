@@ -10,6 +10,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:MultiView ID="page_mv" runat="server">
+                <asp:View ID="firstPage_vw" runat="server">
+                    <h1>Page 1</h1>
+                </asp:View>
+                <asp:View ID="secondPage_vw" runat="server">
+                    <h1>Page 2</h1>
+                </asp:View>
+            </asp:MultiView>
         </div>
     </form>
 </body>
